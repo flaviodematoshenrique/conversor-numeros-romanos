@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de Números Romanos</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Conversor de números romanos</h1>
+        <h4>Digite o número abaixo e clique no botão para conversão.</h4>
+
+        <div class="conversor">
+            <div class="numeros">
+                <input type="text" id="numeroDecimal" class="numero"/>
+                <div id="numeroRomano" class="numero romano"></div>
+            </div>
+    
+            <button id="botaoConverter" class="botao">Converter</button>
+            <p class="alerta oculto" id="alerta">Apenas números entre 1 e 3999 são aceitos.</p>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>        
+    </body>
+</html>
